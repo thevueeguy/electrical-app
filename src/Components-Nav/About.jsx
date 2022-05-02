@@ -15,15 +15,14 @@ const About = () => {
 
                 <div className="row">
                     <div className="col-1-of-2">
-                        <h3 className="heading-tertiary u-margin-bottom-small">You're going to fall in love with nature</h3>
+                        <h3 className="heading-tertiary u-margin-bottom-small">You're going to fall in love with this application.</h3>
                         <p className="paragraph">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur
-                            ducimus quam nisi exercitationem omnis earum qui.
+                        Unlike desktop or client-server applications, web applications can be accessed anywhere using a web browser such as Microsoft Explorer, Google Chrome, or Apple Safari. The user can determine which machine or machines he will use to access the web application. Web applications are updated centrally so that the applications are always up to date. 
                         </p>
 
-                        <h3 className="heading-tertiary u-margin-bottom-small">Live adventures like you never have before</h3>
+                        <h3 className="heading-tertiary u-margin-bottom-small">Learning made easy.</h3>
                         <p className="paragraph">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla deserunt voluptatum nam.
+                           Easier to access all the functionalities.
                         </p>
 
                         <a href="/" className="btn-text">Learn more &rarr;</a>
@@ -49,10 +48,6 @@ const About = () => {
                                  alt=""
                                  className="composition__photo composition__photo--p3"
                                  src={logo3} />
-
-                            <img src={logo2} alt="" className="composition__photo composition__photo--p2"/>
-                            <img src={logo3} alt="" className="composition__photo composition__photo--p3"/>
-                            <img src={logo1} alt="" className="composition__photo composition__photo--p1"/>
                         </div>
                     </div>
                 </div>

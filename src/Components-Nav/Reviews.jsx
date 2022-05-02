@@ -24,14 +24,12 @@ export const Reviews = () => {
         <div className="story">
             <figure className="story__shape">
                 <img src={logo8} alt="Person on a tour" className="story__img" />
-                <figcaption className="story__caption">Mary Smith</figcaption>
+                <figcaption className="story__caption">Sharad Kushwah</figcaption>
             </figure>
             <div className="story__text">
-                <h3 className="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>
+                <h3 className="heading-tertiary u-margin-bottom-small">I had the best learning experience.</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur
-                    ducimus quam nisi exercitationem omnis earum qui. Aperiam, ipsum sapiente aspernatur libero
-                    repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.
+                I’d say this is one of the most memorable learning experience for me till now. The accessable free content is good to sharpen your basics. Also, the motto "From the students, to the students" has hit me hard. I am also planning to start contributing to the app with my learning and development skills. Thanks!
                 </p>
             </div>
         </div>
