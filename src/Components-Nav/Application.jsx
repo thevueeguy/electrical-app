@@ -112,9 +112,9 @@ export const Application = () => {
 				<div className="row-2-of-2">
 					<div className="card">
 						<div className="card__side card__side--front">
-							<div className="card__picture card__picture--2">&nbsp;</div>
+							<div className="card__picture card__picture--4">&nbsp;</div>
 							<h4 className="card__heading">
-								<span className="card__heading-span card__heading-span--2">
+								<span className="card__heading-span card__heading-span--4">
 									Symbols
 								</span>
 							</h4>

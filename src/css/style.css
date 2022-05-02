@@ -1072,6 +1072,12 @@ body {
     background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/nat-7.jpg)
 }
 
+.card__picture--4 {
+    opacity: 0.75;
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#d64343), to(#ff0015)), url(../img/nat-11.jpg);
+    background-image: linear-gradient(to right bottom, #d64343, #ff0015), url(../img/nat-11.jpg)
+}
+
 .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -1103,6 +1109,11 @@ body {
 .card__heading-span--3 {
     background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(41, 152, 255, 0.85)), to(rgba(86, 67, 250, 0.85)));
     background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85))
+}
+
+.card__heading-span--4 {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(230, 76, 76, 0.85)), to(rgba(230, 12, 12, 0.85)));
+    background-image: linear-gradient(to right bottom, rgba(219, 74, 74, 0.85), rgba(238, 13, 13, 0.85))
 }
 
 .card__details {
@@ -2214,7 +2225,7 @@ only screen and (min-width: 125em) {
     -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
     -webkit-transform: translateY(-2px);
-    transform: translateY(-2px)
+    transform: translateY(-2px) 
 }
 
 .image-homeLogo {
@@ -2225,4 +2236,19 @@ only screen and (min-width: 125em) {
     margin-top: 2px;
     left: 1em;
     top: 0.5em;
+}
+
+.formContact {
+    height: 60vh;
+    text-align: center;
+    background-image: linear-gradient(to right bottom, #6fd59dcc, rgba(42, 40, 180, 0.5)); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.formInside {
+    width: 80%;
 }
