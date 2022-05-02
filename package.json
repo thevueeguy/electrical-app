@@ -4,15 +4,21 @@
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.0",
-		"@emotion/styled": "^11.6.0",
-		"@mui/material": "^5.2.2",
-		"@mui/styles": "^5.2.2",
-		"gh-pages": "^2.0.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.2.2",
+    "@mui/styles": "^5.2.2",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.1",
+    "gh-pages": "^2.0.1",
+    "install": "^0.13.0",
+    "npm": "^8.8.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.3.0",
+    "react-script-tag": "^1.1.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -22,8 +28,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn lint && yarn tsc && yarn build",
-		"lint": "eslint --ext .ts,.tsx .",
-		"typescript": "yarn tsc"
+    "lint": "eslint --ext .ts,.tsx .",
+    "typescript": "yarn tsc"
   },
   "eslintConfig": {
     "extends": [
@@ -31,10 +37,10 @@
       "react-app/jest"
     ],
     "rules": {
-			"@typescript-eslint/no-use-before-define": "off",
-			"@typescript-eslint/ban-ts-ignore": "off",
-			"@typescript-eslint/no-explicit-any": "off"
-		}
+      "@typescript-eslint/no-use-before-define": "off",
+      "@typescript-eslint/ban-ts-ignore": "off",
+      "@typescript-eslint/no-explicit-any": "off"
+    }
   },
   "browserslist": {
     "production": [
@@ -49,12 +55,12 @@
     ]
   },
   "prettier": {
-		"semi": false,
-		"tabWidth": 2,
-		"singleQuote": true,
-		"useTabs": true,
-		"jsxBracketSameLine": true,
-		"proseWrap": "never",
-		"trailingComma": "none"
-	}
+    "semi": false,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "useTabs": true,
+    "jsxBracketSameLine": true,
+    "proseWrap": "never",
+    "trailingComma": "none"
+  }
 }

@@ -1,0 +1,79 @@
+
+.Dict {
+display: flex;
+min-height: 90vh;
+flex-direction: column;
+align-items: center;
+background-color: #f6f6f6;
+background-image: linear-gradient(to right bottom, #6fd59dcc, rgba(42, 40, 180, 0.5));
+background-size: cover;
+font-family:'Poppins', sans-serif;
+margin-bottom: 5em;
+}
+
+.showResults p{
+    color: white;
+    font-size: 2em;
+}
+
+.dict-img{
+    height: 20em;
+    margin-top: 15em;
+    margin-bottom: 5em;
+}
+
+h1 {
+text-align: center;
+font-size: 7em;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #533db3;
+padding: 1.5em;
+}
+
+h2{
+font-size: 5em;
+text-decoration: none;
+padding-bottom: 20px;
+color: white;
+}
+
+h4{
+    font-size: 3em;
+color: #533db3;
+}
+
+.errorMessage {
+    font-size: 5rem;
+    margin-top: 5rem;
+    color: white;
+}
+
+input{
+width: 700px;
+height: 50px;
+font-size: 20px;
+padding-left: 10px;
+}
+
+.searchBox > button{
+background-color: #533db3;
+height: 47px;
+width: 60px;
+border: none;
+color: white;
+box-shadow: 0px 3px 2px #533db3;
+cursor: pointer;
+padding: 0;
+box-sizing: border-box;
+}
+
+.showResults{
+width: 500px;
+padding: 20px;
+}
+
+.showResults > h2 > button{
+background: none;
+border: none;
+cursor: pointer;
+}
