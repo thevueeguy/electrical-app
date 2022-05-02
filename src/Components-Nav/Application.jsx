@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../css/style.css'
 import dict from '../img/dict.png'
+import formula from '../img/formula.png'
+import cal from '../img/cal.png'
+import symbol from '../img/symbol.png'
 
 export const Application = () => {
 	return (
@@ -32,11 +35,8 @@ export const Application = () => {
 								</div>
 							</div>
 							<div className="card__side card__side--back card__side--back-1">
-								<div className="card__cta">
-									<div className="card__price-box">
-										<p className="card__price-only">Only</p>
-										<p className="card__price-value">$297</p>
-									</div>
+							<div className="card__cta">
+									<img src={formula} alt="" />
 									<Link to="/Formula" className="btn btn--white">
 										Enter!
 									</Link>
@@ -95,11 +95,8 @@ export const Application = () => {
 								</div>
 							</div>
 							<div className="card__side card__side--back card__side--back-3">
-								<div className="card__cta">
-									<div className="card__price-box">
-										<p className="card__price-only">Only</p>
-										<p className="card__price-value">$897</p>
-									</div>
+							<div className="card__cta">
+									<img src={cal} alt="" />
 									<Link to="/Calculator" className="btn btn--white">
 										Enter!
 									</Link>
@@ -128,16 +125,13 @@ export const Application = () => {
 								</ul>
 							</div>
 						</div>
-						<div className="card__side card__side--back card__side--back-2">
-							<div className="card__cta">
-								<div className="card__price-box">
-									<p className="card__price-only">Only</p>
-									<p className="card__price-value">$497</p>
+						<div className="card__side card__side--back card__side--back-4">
+						<div className="card__cta">
+									<img src={symbol} alt="" />
+									<Link to="/Symbols" className="btn btn--white">
+										Enter!
+									</Link>
 								</div>
-								<Link to="/Symbols" className="btn btn--white">
-									Enter!
-								</Link>
-							</div>
 						</div>
 					</div>
 				</div>
