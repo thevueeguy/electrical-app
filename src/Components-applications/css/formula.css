@@ -1,0 +1,36 @@
+.formulaes {
+    display: flex;
+    min-height: 90vh;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f6f6;
+    background-image: linear-gradient(to right bottom, rgba(255, 187, 0, 0.914), rgba(255, 170, 0, 0.897));
+    background-size: cover;
+    font-family:'Poppins', sans-serif;
+    margin-bottom: 5em;
+}
+
+.lists {
+    text-decoration: none;
+    display : flex;
+    max-height: 90vh;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.584);
+    font-size: 2rem;
+    margin-top : 3rem;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    padding : 0.34em 5em;
+}
+
+
+
+.oh:hover, .se:hover, .si:hover, .th:hover, .co:hover  {
+    
+    -webkit-box-shadow: 0 1.5rem 4rem rgba(1, 1, 1, 1);
+    box-shadow: 0 1.5rem 4rem rgba(1, 1, 1, 0.4);
+    transform: scaleX(1.03) scaleY(1.04);
+    transition: all 0.2s;
+}
+
+

@@ -9,7 +9,7 @@ export const Auth = () => {
                 <form action="#" className="form">
                     <div className="u-margin-bottom-medium">
                         <h2 className="heading-secondary">
-                            Start booking now
+                            Become a member
                         </h2>
                     </div>
 
@@ -28,7 +28,7 @@ export const Auth = () => {
                             <input type="radio" className="form__radio-input" id="small" name="size" />
                             <label for="small" className="form__radio-label">
                                 <span className="form__radio-button"></span>
-                                Small tour group
+                                Student
                             </label>
                         </div>
 
@@ -36,13 +36,13 @@ export const Auth = () => {
                             <input type="radio" className="form__radio-input" id="large" name="size" />
                             <label for="large" className="form__radio-label">
                                 <span className="form__radio-button"></span>
-                                Large tour group
+                                Faculty
                             </label>
                         </div>
                     </div>
 
                     <div className="form__group">
-                        <button className="btn btn--green">Next step &rarr;</button>
+                        <button className="btn btn--green">Login</button>
                     </div>
                 </form>
             </div>

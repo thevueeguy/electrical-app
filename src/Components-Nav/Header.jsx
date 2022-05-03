@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../img/logo-white.png';
 
 export const Header = () => {
   return (
@@ -11,7 +10,7 @@ export const Header = () => {
     <div className="header__text-box">
         <h1 className="heading-primary">
             <span className="heading-primary--main">MITS</span>
-            <span className="heading-primary--sub">EE Department</span>
+            <span className="heading-primary--sub">Electrical web app</span>
         </h1>
 
         <Link to="/application" className="btn btn--white btn--animated">Go to Application Section</Link>

@@ -14,6 +14,14 @@ import ScrollToTop from './Components-applications/ScrollToTop'
 import PrivacyPolicy from './Components-Nav/PrivacyPolicy'
 import homeLogo from './img/home.png'
 import ContactMe from './Components-Nav/ContactMe'
+import Ohm from './Components-applications/Content/Ohm'
+import Conversion from './Components-applications/Content/Conversion'
+import ThreePhase from './Components-applications/Content/ThreePhase'
+import { SinglePhase } from './Components-applications/Content/Singlephase'
+import { SeriesParallel } from './Components-applications/Content/SeriesParallel'
+import  Create  from './Components-applications/Create'
+import ContentDetails from './Components-applications/ContentDetails'
+import NotFound from './Components-applications/NotFound'
 
 function App() {
 	return (
@@ -117,6 +125,14 @@ function App() {
 						<Route exact path="/auth" element={<Auth />} />
 						<Route exact path="/policy" element={<PrivacyPolicy />} />
 						<Route exact path="/contact" element={<ContactMe />} />
+						<Route exact path = '/ohm' element= {<Ohm/>}/>
+        				<Route exact path = '/series-parallel' element= {<SeriesParallel/>}/>
+        				<Route exact path = '/singlephase' element= {<SinglePhase/>}/>
+        				<Route exact path = '/3phases' element= {<ThreePhase/>}/>
+        				<Route exact path = '/conversion' element= {<Conversion/>}/>
+						<Route exact path = '/create' element = {<Create/>}/>
+						<Route exact path = '/contents/:id' element = {<ContentDetails/>}/>
+						<Route path = "*" element = {<NotFound/>}/>
 					</Routes>
 				</div>
 

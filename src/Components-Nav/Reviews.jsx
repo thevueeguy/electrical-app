@@ -1,17 +1,12 @@
 import React from 'react'
-import mp4 from "../img/video.mp4";
-import webm from "../img/video.webm";
+import mp4 from "../img/nat-4.jpg";
 import logo8 from "../img/nat-8.jpg";
 
 export const Reviews = () => {
   return (
     <div><section className="section-stories">
     <div className="bg-video">
-        <video className="bg-video__content" autoplay muted loop>
-            <source src={mp4} type="video/mp4" />
-            <source src={webm} type="video/webm" />
-            Your browser is not supported!
-        </video>
+        <img src={mp4} alt="" />
     </div>
 
     <div className="u-center-text u-margin-bottom-big">

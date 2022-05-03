@@ -44,6 +44,7 @@ function Dictionary() {
 						setSearchWord(e.target.value);
 						getMeaning();
 					}}}
+					className="inputForDict"
 				/>
 				<button
 					onClick={() => {
